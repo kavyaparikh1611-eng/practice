@@ -1,0 +1,6 @@
+print(10>5)
+print(10<5)
+print(bool("hello"))
+print(bool(10))
+print(bool(""))
+print(bool())
