@@ -2,4 +2,9 @@ list=["rohit","jainik","kp"]
 print(list)
 list.append("raj")
 print(list)
-list[]
+list[2]="prem"
+print(list)
+list.remove("raj")
+print(list)
+del list
+print(list)
