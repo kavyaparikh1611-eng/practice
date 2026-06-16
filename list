@@ -1,0 +1,5 @@
+list=["rohit","jainik","kp"]
+print(list)
+list.append("raj")
+print(list)
+list[]
