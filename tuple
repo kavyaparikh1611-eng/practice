@@ -1,4 +1,10 @@
-t1=("mango","blueberry","apple")
+t1=("mango","apple","banana")
+print(t1)
 t2=list(t1)
-t2[0]="kiwi"
+t2[2]="kiwi"
+t2.append("banana")
+t2.remove("apple")
 t1=tuple(t2)
+print(t1)
+del t1
+print(t1)
