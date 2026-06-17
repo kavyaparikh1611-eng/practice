@@ -1,0 +1,4 @@
+t1=("mango","blueberry","apple")
+t2=list(t1)
+t2[0]="kiwi"
+t1=tuple(t2)
