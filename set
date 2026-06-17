@@ -1,0 +1,10 @@
+s1={"apple", "mango", "cherry"}
+s1.add("orange")
+print(s1)
+s2= {"pineapple", "mango", "papaya"}
+s1.update(s2)
+print(s1)
+s1.remove("apple")
+print(s1)
+del s1
+print(s1)
