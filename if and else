@@ -1,0 +1,50 @@
+# if...else
+a=10
+b=20
+if a>b:
+    print("a is greater")
+else:
+    print("b is greater")
+    
+# if..elif...else
+
+a=10
+b=20
+c=3
+if a>b and a>c:
+    print("a is greater")
+elif b>c and b>a:
+    print("b is greater")
+else:
+    print("c is greater")
+
+#match statement
+
+month = 11
+match month:
+    case 1:
+        print("january")
+    case 2:
+        print("febuary")
+    case 3:
+        print("march")
+    case 4:
+        print("april")
+    case 5:
+        print("mau")
+    case 6:
+        print("june")
+    case 7:
+        print("july")
+    case 8:
+        print("august")
+    case 9:
+        print("septemeber")
+    case 10:
+        print("october")
+    case 11:
+        print("novemeber")
+    case 12:
+        print("decemeber")
+    case _:
+        print("invalid number")
