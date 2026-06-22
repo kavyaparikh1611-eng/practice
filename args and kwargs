@@ -1,0 +1,10 @@
+#args
+def my_function(*months):
+  print("your selected month is "  + months[10])
+
+my_function("January", "February", "March","april", "May","June","July", "August", "September", "October", "November", "December")
+
+#kwargs
+def student(**details):
+    print(details)
+student(name="kp", age=18)
