@@ -5,10 +5,6 @@ def numbers(n):
         total = total + i
 
     return total
-
-
 num = int(input("Enter a number: "))
-
 answer = numbers(num)
-
 print("Sum =", answer)
